@@ -1,0 +1,25 @@
+<div style="text-align:center">
+  <h1>
+   <!-- Marvellous Infosystems : Component Communication -->
+    ------------- Parent To Child Communication --------------
+  </h1>
+  <h2>      
+    <!-- Send data to child component-->
+    <app-firstSubcomponent [parentData]="message1"></app-firstSubcomponent>
+  </h2>
+</div>
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    ------------- Child to Parent Communication ----------------
+  </h1>
+  <!--
+    Bind the event with the container
+  -->
+  <app-SecondSubcomponent (MyEvent)="Message= $event"></app-SecondSubcomponent>
+
+  <!-- Display the message received from child-->
+  <h2>{{Message}}</h2>  
+</div>
+

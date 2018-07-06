@@ -1,0 +1,6 @@
+[
+    {"Name":"Ganesh",  "RollNo":1,  "Address":"Pune"},
+    {"Name":"Mukund",  "RollNo":2,  "Address":"Mumbai"},
+    {"Name":"Sagar",   "RollNo":3,  "Address":"Nashik"},
+    {"Name":"Rahul",   "RollNo":4,  "Address":"Thane"}
+]
